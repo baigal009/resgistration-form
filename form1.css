@@ -1,0 +1,150 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: lightgray;
+}
+section{
+
+	height: 100vh;
+
+}
+div{
+	background-color: rgba(0, 0, 0, 0.01);
+}
+nav{
+	height: 60px;
+	background-color: #1E90FF;
+}
+h2{
+	font-size: 40px;
+	text-transform: capitalize;
+	margin-left: 30px;
+	color: #ffffffc4;
+	margin-top: 10px;
+	letter-spacing: 3px;
+	float: left;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: #ffff;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-left: 45px;
+
+}
+a:hover{
+	color: black;
+	cursor: progress;
+
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 10px;
+	color: green;
+}
+form{
+	margin-top: 25px;
+}
+span{
+	color: red;
+}
+fieldset{
+	height: 460px;
+	margin-left: 30px;
+	margin-right: 20px;
+	border-radius: 40px;
+	margin-top: 26px;
+	border: 3px solid brown;
+}
+.field2{
+	height: 320px;
+	border: 3px solid blue;
+	margin-top: 40px;
+
+}
+.field3{
+	height: 200px;
+	border: 3px solid green;
+	margin-top: 40px;
+
+}
+legend{
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 30px;
+}
+label{
+	font-size: 22px;	
+	margin-left: 20px;
+
+}
+input{
+	height: 50px;
+	width: 500px;
+	border-radius: 15px;
+	background-color: white;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 35px;
+	outline: none;
+	border: none;
+	box-shadow: 1px 1px 10px 1px blue inset;
+}
+	
+
+}
+::placeholder{
+	color:grey;
+}
+
+h3{
+	float: left;
+	font-size: 30px;
+}
+.one{
+	height: 20px;
+	width: 20px;
+	margin-top: 37px;
+	margin-left: 50px;
+	box-shadow: none;
+}
+
+.two{
+	height: 20px;
+	box-shadow: none;
+	width: 20px;
+
+}
+.last{
+	text-align: center;
+}
+button{
+	height: 70px;
+	width: 190px;
+	background-color: lightblue;
+	/*margin-left: 550px;*/
+	text-align: center;
+	margin-top: 30px;
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	font-size: 27px;
+	text-transform: capitalize;
+	box-shadow: 3px 3px 15px 5px blue inset;
+}
+button:hover{
+	background-color:white;
+	box-shadow: none;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 15px;
+
+}
+.ddd{
+	height: 700px;
+	width: 100%;
+}
